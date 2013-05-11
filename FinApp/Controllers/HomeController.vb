@@ -4,6 +4,7 @@
     Function Index() As ActionResult
         ViewData("Message") = "Welcome to ASP.NET MVC!"
         Return View()
+
     End Function
 
     Function About() As ActionResult
